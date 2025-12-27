@@ -1,0 +1,84 @@
+{
+  // Editor Settings for Markdown
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.lineNumbers": "off",
+    "editor.rulers": [],
+    "editor.renderLineHighlight": "none",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
+    "editor.fontFamily": "'Georgia', 'Times New Roman', serif",
+    "editor.minimap.enabled": false,
+    "editor.suggest.showWords": true,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+
+  // Copilot Settings
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  
+  // File Settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  
+  // Search Settings
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  },
+
+  // Markdown Specific Settings
+  "markdown.preview.fontSize": 14,
+  "markdown.preview.lineHeight": 1.6,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.extension.list.indentationSize": "adaptive",
+  
+  // Spell Check (if using Code Spell Checker extension)
+  "cSpell.enabled": true,
+  "cSpell.language": "en",
+  "cSpell.enableFiletypes": [
+    "markdown"
+  ],
+
+  // Workbench Settings for Focused Writing
+  "workbench.colorTheme": "Default Light+",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "zenMode.centerLayout": true,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.restore": true,
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": true,
+
+  // Git Settings
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  
+  // File Associations
+  "files.associations": {
+    "*.md": "markdown"
+  },
+
+  // Recommended Extensions (for reference)
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "github.copilot",
+    "github.copilot-chat",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
