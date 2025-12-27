@@ -64,7 +64,7 @@ Find templates in [`journal/templates/ledger_of_conduct_template.md`](journal/te
 - Monthly assessment template
 - Quarterly review template
 
-**Quick Insert with IntelliSense**: In VS Code, type `@daily`, `@weekly`, `@monthly`, or `@quarterly` and the autocomplete menu will show template snippets you can insert instantly.
+**Quick Insert with IntelliSense**: In VS Code, type `/loc.daily`, `/loc.weekly`, `/loc.monthly`, or `/loc.quarterly` and the autocomplete menu will show template snippets you can insert instantly.
 
 ### 4. Start Writing
 Open [`journal/2025-H2.md`](journal/2025-H2.md) and write today's entry. Don't overthink it—just start.
@@ -81,7 +81,7 @@ ledger-of-conduct/
 │       └── ledger_of_conduct_template.md  # Entry templates
 ├── .vscode/
 │   ├── settings.json                # Optimized for Markdown + Copilot
-│   ├── markdown.code-snippets       # IntelliSense snippets (@daily, @weekly, etc.)
+│   ├── markdown.code-snippets       # IntelliSense snippets (/loc.daily, /loc.weekly, etc.)
 │   └── prompts/
 │       ├── daily-prompt.md          # Daily reflection prompts
 │       ├── weekly-prompt.md         # Weekly review prompts

@@ -1,6 +1,6 @@
 {
   "Daily Entry Template": {
-    "prefix": "@daily",
+    "prefix": "/loc.daily",
     "scope": "markdown",
     "description": "Insert a daily journal entry template",
     "body": [
@@ -34,7 +34,7 @@
     ]
   },
   "Weekly Review Template": {
-    "prefix": "@weekly",
+    "prefix": "/loc.weekly",
     "scope": "markdown",
     "description": "Insert a weekly review template",
     "body": [
@@ -69,7 +69,7 @@
     ]
   },
   "Monthly Assessment Template": {
-    "prefix": "@monthly",
+    "prefix": "/loc.monthly",
     "scope": "markdown",
     "description": "Insert a monthly assessment template",
     "body": [
@@ -117,7 +117,7 @@
     ]
   },
   "Quarterly Review Template": {
-    "prefix": "@quarterly",
+    "prefix": "/loc.quarterly",
     "scope": "markdown",
     "description": "Insert a quarterly review template",
     "body": [
